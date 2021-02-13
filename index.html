@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title></title>
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+   <link rel="stylesheet" type="text/css" href="css/frontpage_design.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+     
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+  	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+  			<!--start collaps navbar-->
+  			
+  		<div class="navbar-header">
+        <button 
+        type="button" 
+        class="navbar-toggle collapsed" 
+        data-toggle="collapse" 
+        data-target="#main_navbar" 
+        aria-expanded="false">open!</button>
+      </div>
+      <!-- / collapsed navbar-->
+
+      <!-- start un-collapsed navbar-->
+      <div class="collapse navbar-collapse"
+      id="main_navbar">
+      <ul class="nav navbar-nav">
+  			<li class="active"><a href="index.html">Home</a></li>
+        <li><a href="Developer_album.html">Album</a></li>
+        <li><a href="form.html">Form</a></li>
+      
+  		</ul>
+  	</div>
+  </div>
+  	</nav>
+  	<div class="container">
+  		<h1>I   E  H  R  s</h1>
+
+      <!-- start breadcrumb -->
+      <ol class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+      </ol>
+      <!-- / breadcrumb -->
+      <div class="box">
+        <table id="display">
+          <tr>
+            <th>Ref no</th>
+            <th>Patient Name</th>
+            <th>Doctor Name</th>
+            <th>Test</th>
+            <th>Age</th>
+            <th>Date</th>
+          </tr>
+      </table>
+        </div>
+      <form class="form_details">
+        <p id="ref_no"><label for="ref_id">Ref no&emsp;&emsp;&emsp;&nbsp;</label><input id="ref_id" type="text" name="ref_id" maxlength="20" size="16" placeholder="Refference no"></p>
+        <p id="date"><label for="date_value">Date&emsp;&emsp;&emsp;&ensp;&nbsp;</label><input id="date_value" type="date" name="date_value" maxlength="20" size="16"></p>
+        <p id="p_name"><label for="p_details">Patient Name</label><input id="p_details" type="text" name="p_details" maxlength="20" size="16" placeholder="Patient Name"></p>
+        <p id="age"><label for="age_details">Age&emsp;&emsp;&emsp;&ensp;&nbsp;&nbsp;</label><input id="age_details" type="text" name="age_details" maxlength="20" size="16" placeholder="Age"></p>
+        <p id="test"><label for="t_details">Test&emsp;&emsp;&emsp;&emsp;&nbsp;</label><input id="t_details" type="text" name="t_details" maxlength="20" size="16" placeholder="Test"></p>
+        <p id="d_name"><label for="d_details">Reffered by&nbsp;</label><input id="d_details" type="text" name="d_details" maxlength="20" size="16" placeholder="Doctor Name"></p>
+         
+           <button id="listen">Submit</button>
+      </form>
+    </div>
+
+    
+    <script src="form_details.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     </body>
+</html>

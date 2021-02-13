@@ -1,0 +1,81 @@
+.form_details {
+
+}
+.box{
+    position: static;
+    float:right;
+    margin-right: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px  white;
+        width: 450px;
+        height: 450px;
+        padding: 10px;
+        border: 2px solid white;
+        
+    }
+    table ,th,td {
+        border: 1px solid white;
+        table-layout: fixed;
+
+    }
+    th{
+        padding-left: 5px;
+        padding-right: 5px;
+        color:gold;
+
+    }
+    table{
+        margin: 10px auto;
+
+    }
+    td{
+        color: white;
+    }
+#ref_no{
+position: absolute;
+}
+#ref_id{
+
+}
+#date{
+position: relative;
+margin-left: 250px;
+}
+#date_value{
+}
+#p_name{
+position: absolute;
+}
+#p_details{
+
+}
+#age{
+    position: relative;
+    margin-left: 250px;
+
+}
+#age_details{
+
+}
+#test{
+    position: absolute;
+
+    }
+    #t_details{
+    
+    }
+    #d_name{
+     position: relative;
+     margin-left: 250px;
+
+    }
+    #d_details{
+    
+    }
+    #gender{
+    } 
+
+button {
+    margin: 10px;
+    color:blue;
+}
