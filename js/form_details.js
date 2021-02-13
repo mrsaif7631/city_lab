@@ -1,4 +1,4 @@
-const formEl = document.querySelector("form");
+nconst formEl = document.querySelector("form");
 const tableEl =document.querySelector("table");
 function addDetails(e){
     e.preventDefault();
@@ -20,6 +20,6 @@ function addDetails(e){
                           <td>${age_details}</td>
                           <td>${date_value}</td>
                         </tr>`  
-}
+};
 
 formEl.addEventListener("submit",addDetails);
