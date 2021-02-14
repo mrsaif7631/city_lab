@@ -4,18 +4,19 @@
 .box{
     position: static;
     float:right;
-    margin-right: 100px;
+    margin-right:150px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px  white;
         width: 450px;
         height: 450px;
         padding: 10px;
         border: 2px solid white;
+        overflow-y: scroll;
         
     }
     table ,th,td {
         border: 1px solid white;
-        table-layout: fixed;
+        table-layout: auto;
 
     }
     th{
@@ -26,10 +27,11 @@
     }
     table{
         margin: 10px auto;
+    
 
     }
     td{
-        color: white;
+        color:whitesmoke;
         text-align: center;
     
     
