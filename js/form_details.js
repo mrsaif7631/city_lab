@@ -1,4 +1,4 @@
-nconst formEl = document.querySelector("form");
+const formEl = document.querySelector("form");
 const tableEl =document.querySelector("table");
 function addDetails(e){
     e.preventDefault();
