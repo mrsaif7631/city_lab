@@ -1,3 +1,6 @@
+body{
+    counter-reset: section;
+}
 .form_details {
 
 }
@@ -36,12 +39,13 @@
     
     
     }
+
 #ref_no{
 position: absolute;
 }
 #ref_id{
 
-}
+        }
 #date{
 position: relative;
 margin-left: 250px;
@@ -79,6 +83,27 @@ position: absolute;
     }
     #gender{
     } 
+    #addr{
+
+    }
+    #addr_details{
+
+    }
+    #ph_no{
+        position: absolute;
+
+    }
+    #ph_details{
+        
+
+    }
+    #sex{
+    position: relative;
+    margin-left: 250px;
+    }
+    #sex_value{
+
+    }
 
 button {
     margin: 10px;
