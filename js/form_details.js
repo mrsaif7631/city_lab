@@ -20,6 +20,6 @@ function addDetails(e){
                           <td>${age_details}</td>
                           <td>${date_value}</td>
                         </tr>`  
-}
+};
 
 formEl.addEventListener("submit",addDetails);
